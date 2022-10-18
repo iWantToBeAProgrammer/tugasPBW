@@ -4,11 +4,13 @@
 }
 
 body {
+    /* ganti background sama font nya */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #fff;
 }
 
 .container {
+    /* ganti background juga */
     background-color: #f7f7f7;
     width: 85%;
     min-height: 100vh;
@@ -18,6 +20,7 @@ body {
 }
 
 .nav-bar {
+    /* ganti background lagi */
     width: 100%;
     height: 50px;
     background-color: tomato;
@@ -61,6 +64,7 @@ body {
 }
 
 .nav-bar ul li a:hover {
+    /* gnati background sama warna tulisan */
     background-color: #252525;
     color: #f7f7f7;
     transition: .4s ease-in-out;
@@ -82,6 +86,7 @@ body {
 }
 
 .hero img {
+    /* ganti warna border */
     line-height: 0;
     height: 300px;
     width: 400px;
@@ -109,6 +114,7 @@ body {
 }
 
 .top-items-card img {
+    /* ganti warna border */
     width: 200px;
     height: 200px;
     border: 2px solid orange;
@@ -117,6 +123,7 @@ body {
 }
 
 .top-items-card span {
+    /* ganti background, ganti shadow, sama color */
     display: block;
     width: 210px;
     height: 200px;
@@ -131,6 +138,7 @@ body {
     background-color: aliceblue;
 }
 .belanja .row span {
+    /* ganti background, ganti shadow, sama color */
     display: block;
     width: 200px;
     height: 200px;
@@ -145,6 +153,7 @@ body {
     background-color: aliceblue;
 }
 .belanja .row1 span {
+        /* ganti background, ganti shadow, sama color */
     display: block;
     width: 200px;
     height: 200px;
@@ -159,6 +168,7 @@ body {
     background-color: aliceblue;
 }
 .belanja .row2 span {
+        /* ganti background, ganti shadow, sama color */
     display: block;
     width: 200px;
     height: 200px;
@@ -187,24 +197,28 @@ body {
 .top-items-card a:hover span,
 .top-items-card a:hover p
 {
+    /* ganti waktu transition nya */
     transition: .4s ease-in-out;
     opacity: .7;
 }
 .belanja .row a:hover span,
 .belanja .row a:hover p
 {
+    /* ganti waktu transition nya */
     transition: .4s ease-in-out;
     opacity: .7;
 }
 .belanja .row1 a:hover span,
 .belanja .row1 a:hover p
 {
+    /* ganti waktu transition nya */
     transition: .4s ease-in-out;
     opacity: .7;
 }
 .belanja .row2 a:hover span,
 .belanja .row2 a:hover p
 {
+    /* ganti waktu transition nya */
     transition: .4s ease-in-out;
     opacity: .7;
 }
@@ -241,12 +255,14 @@ body {
 }
 
 .menu ul li a {
+    /* ganti warna lagi */
     text-decoration: none;
     color: #252525;
     font-weight: 500;
 }
 
 .menu ul li a:hover {
+    /* ganti warna */
     color: blue;
 }
 
@@ -265,17 +281,20 @@ body {
 }
 
 .social a img {
+    /* hapus filternya */
     margin: 0 5px;
     filter: grayscale(100%);
 }
 
 .social a img:hover {
+    /* hapus filternya */
     filter: grayscale(0);
     transition: .3s ease-in-out;
 }
 
 /* Belanja CSS */
 .kategori {
+    /* ganti warna border */
    margin-left: 20px;
    float: left;
    width: 20%;
@@ -300,6 +319,7 @@ body {
 }
 
 .footer {
+    /* ganti background */
     width: 100%;
     position: absolute;
     bottom: 0;
